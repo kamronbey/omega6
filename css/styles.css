@@ -284,7 +284,7 @@ body {
     padding: 16px 25px;
     margin-top: 30px;
     margin-bottom: 18px;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 .main-link:hover {
@@ -332,4 +332,244 @@ body {
 
 .omg-text {
     margin-bottom: 16px;
+}
+/* 2-section */
+.chapters {
+    background-color: #F2F2F2;
+    border-top: 2px solid  #EAE9F2;
+    border-bottom: 2px solid  #EAE9F2;
+    padding: 100px 0;
+}
+
+.chapters-title {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #19191B;
+}
+
+.chapters-text {
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    color: #696871;
+    margin-top: 18px;
+    margin-bottom: 60px;
+}
+
+.problem-box {
+    position: relative;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 12px 34px rgba(65, 62, 101, 0.102519);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 88px 90px;
+}
+
+.problem-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #5454D4;
+}
+
+.problem-title {
+    margin-top: 10px;
+    margin-bottom: 29px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #19191B;
+
+}
+
+.omega-text {
+    font-size: 21px;
+    line-height: 39px;
+    color: #19191B;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+    padding: 20px 27px;
+    font-size: 24px;
+    text-align: center;
+    outline: none;
+    transition: 0.5s;
+}
+
+.btn:focus {
+    background-color: #5454D4;
+    color: #fff;
+}
+
+.problem-button-one {
+    position: absolute;
+    right: 97%;
+}
+
+.problem-button-two {
+    position: absolute;
+    left: 97%;
+}
+
+.problem-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+
+.problem-item-img {
+  transform: translateX(140px);
+}
+
+.problem-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #19191B;
+    margin-top: 39px;
+    margin-bottom: 15px;
+}
+
+.problem-item-text {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #696871;
+}
+
+.things {
+    background-color: #F2F2F3;
+    border-bottom: 2px solid #EAE9F2;
+    padding: 100px 0;
+
+}
+
+.things-title {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #19191B;
+}
+
+.things-text {
+    margin-top: 18px;
+    margin-bottom: 60px;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    color: #696871;
+}
+
+.things-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.things-item {
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    padding: 18px 20px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.things-item:hover {
+    box-shadow: 0 6px 20px 0px #9b9b9b;
+}
+
+.small {
+    padding: 27px 20px;
+}
+
+.things-item-text {
+    margin-left: 17px;
+    font-size: 21px;
+    line-height: 25px;
+    color: #19191B; 
+}
+
+.get-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #413E65;
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.get-small-box {
+    display: flex;
+    align-items: center;
+
+}
+
+.get-info {
+    margin-left: 48px;
+}
+
+.get-title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;     
+}
+
+.get-text {
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.get-link {
+    background: #F0544C;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 39px;
+    transition: 0.5s;
+}  
+
+.get-link:hover {
+    background-color: #C31A12;
+}
+
+.things-list-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.things-item-title {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #5454D4;
+    margin-bottom: 18px;
+}
+
+.things-item-text-two {
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    color: #696871;
 }
